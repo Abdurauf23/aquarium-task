@@ -63,6 +63,7 @@ public class AquariumImpl implements Aquarium {
 
                 Thread.sleep(sleepMS);
             }
+            Thread.sleep(sleepMS);
             System.out.println("No fishes left in the Aquarium");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
